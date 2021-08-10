@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style-type: none; }
+
+.img-fluid {
+  max-width: 100%; }
+
+.mainNav .mainNav__lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.mainNav__item {
+  margin-right: 50px; }
+
+.mainNav__link {
+  font-size: 20px;
+  transition: .2s all ease-in-out; }
+  .mainNav__link:hover {
+    color: #a8a8a8;
+    transition: .2s all ease-in-out; }
+
+.icono {
+  font-size: 30px;
+  color: white; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+textarea {
+  resize: none; }
+
+.logo {
+  text-align: center;
+  margin-top: 100px; }
+
+.logoFondo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  bottom: 50%;
+  opacity: .1;
+  z-index: -1; }
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-repeat: repeat;
+  font-family: 'Roboto', sans-serif; }
+
+#mapa {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: normal; }
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: white; }
+
+h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: normal; }
+
+.miembros {
+  padding-left: 80px; }
+
+div h3 {
+  color: grey;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal; }
+
+.contacPa {
+  color: white;
+  font-weight: normal;
+  font-size: 18px; }
+
+#redes {
+  color: red; }
+
+form {
+  color: white;
+  font-size: 24px; }
+
+.maps {
+  background-color: black;
+  text-align: left; }
+  .maps img {
+    width: 100%; }
+  .maps iframe {
+    width: 100%;
+    height: 500px; }
+
+p {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal; }
+
+.parrafo {
+  color: white;
+  font-size: 20px;
+  font-weight: normal; }
+
+.parrafoSomos {
+  color: white;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: normal;
+  word-spacing: 10px; }
+
+.fondoTorneos {
+  color: white;
+  background-color: black; }
+
+.footFondo {
+  background-color: black; }
+
+footer {
+  color: white;
+  font-size: 24px; }
+  footer .display-flex {
+    justify-content: space-between; }
+
+.redesSociales {
+  display: inline-block;
+  vertical-align: middle; }
+
+.copyright {
+  display: inline-block;
+  vertical-align: middle; }
+
+section h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px; }
+
+section p {
+  margin-bottom: 20px; }
+
+video {
+  margin-top: 30px;
+  width: 100%; }
+
+.flex-seccion {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.fondoMiembros {
+  background-color: black; }
+
+.half-section {
+  color: white;
+  margin: 120px 0; }
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.half-section__title {
+  text-transform: uppercase; }
+
+.half-section__subtitle {
+  font-size: 24px;
+  margin-bottom: 30px; }
+
+.members {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px; }
+  .members img {
+    width: 100%;
+    margin: 0; }
+
+fieldset {
+  border: 0; }
+  fieldset .half-section__field {
+    margin-bottom: 15px; }
+    fieldset .half-section__field label {
+      margin-bottom: 5px; }
+
+.half-section__field input:not([type="submit"]) {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  background-color: #D6D6D6; }
+
+.half-section__field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  background-color: #D6D6D6; }
+
+.half-section__field input[type="submit"] {
+  background-color: #D6D6D6;
+  padding: 10px 30px; }
+
+.half-section__list li {
+  margin-bottom: 15px; }
+  .half-section__list li img {
+    margin-right: 10px; }
+  .half-section__list li a {
+    color: red; }
+
+.half-section__img form {
+  max-width: 500px;
+  margin-left: auto; }
+
+.video {
+  width: 100%;
+  height: 80vh;
+  margin-top: 20px; }
+
+@media (min-width: 1200px) {
+  .display-flex {
+    display: flex;
+    align-items: center; }
+  .half-section__text {
+    width: 50%; }
+  .half-section__img {
+    width: 50%; }
+  .full-height {
+    height: calc(100vh - 94px);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .members {
+    grid-template-columns: auto auto auto auto auto; }
+  .half-section {
+    margin: 120px 0; } }
