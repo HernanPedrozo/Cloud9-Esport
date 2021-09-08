@@ -270,3 +270,11 @@ fieldset {
 		margin: 120px 0;
 	}
 }
+.full-height2 {
+	height: calc(100vh - 90px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+

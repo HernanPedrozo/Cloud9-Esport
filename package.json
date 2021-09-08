@@ -1,7 +1,7 @@
 {
   "name": "miweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!-- PROJECT LOGO -->\r <br />\r <p align=\"center\">\r   <a href=\"https://github.com/github_username/repo_name\">\r     <img src=\"img/Logo-header.png\" alt=\"Logo\" width=\"80\" height=\"80\">\r   </a>\r   <h3 align=\"center\">Cloud9</h3>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,5 +13,10 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "+"
   }
 }
